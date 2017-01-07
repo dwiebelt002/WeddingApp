@@ -3,6 +3,11 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
 html,
 body {
   height: 100%;
@@ -25,6 +30,7 @@ a {
   transition: all 0.35s;
   color: #0ABAB5;
 }
+
 a:hover,
 a:focus {
   color: #0ABAB5;
@@ -35,7 +41,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Indie Flower', cursive;
+  color: purple;
 }
 p {
   font-size: 16px;
@@ -43,7 +50,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #0ABAB5;
+  background-color: pink;
 }
 .bg-dark {
   background-color: #222222;
@@ -64,14 +71,14 @@ aside {
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Indie Flower', cursive;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  color: black;
+  font-family: 'Indie Flower', cursive;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -155,9 +162,9 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/hearts.jpg');
+  background-image: url('../img/love.jpg');
   text-align: center;
-  color: white;
+  color: black;
 }
 header .header-content {
   position: relative;
@@ -380,7 +387,7 @@ fieldset[disabled] .btn-primary.active {
   border-color: #F05F40;
 }
 .btn-primary .badge {
-  color: #F05F40;
+  color: coral;
   background-color: white;
 }
 .btn {
@@ -414,3 +421,5 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
+
