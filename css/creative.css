@@ -8,6 +8,16 @@
     margin: 0 auto;
 }
 
+.thumbnail a>img, .thumbnail>img {
+  max-height: 133px;
+}
+
+@media (min-width: 600px) {
+  .thumbnail a>img, .thumbnail>img {
+    max-height: 180px;
+  }
+}
+
 html,
 body {
   height: 100%;
